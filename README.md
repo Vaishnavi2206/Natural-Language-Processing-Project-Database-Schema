@@ -1,21 +1,21 @@
 # Natural-Language-Processing-Project-Database-Schema
 
-Tables:
+1] Tables:
 
 company_info: Consists information about companies.
 event_info: Consists information about events.
 people_info: Consists information about people working in companies.
 
-Relationships:
+2] Relationships:
 
 Relationship 1: Events and company data can be merged using ‘event_url’ column.
 Relationship 2: Company and people data can be merged using ‘homepage_base_url’ colum.
 
-Attributes:
+3] Attributes:
 
 This repository contains the CREATE TABLE definitions for all three tables (company_info, event_info, people_info) in the database schema, along with corresponding CSV files for data insertion.
 
-Challenges Faced:
+4] Challenges Faced:
 
 During the development and management of this database, several challenges were encountered:
 
@@ -25,7 +25,7 @@ Handling Large Datasets: Efficiently managing and querying large volumes of data
 
 Managing Queries for Different Data Types: Adapting queries and schema changes when transitioning data types, such as converting from VARCHAR to TIMESTAMP for date columns
 
-Improvements for Database Design
+5] Improvements for Database Design
 Given more time to work on the database design, several improvements could be implemented:
 
 Normalization Refinement: Further normalize the schema to eliminate redundancy and improve data consistency.
