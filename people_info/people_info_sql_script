@@ -1,0 +1,19 @@
+-- public.people_info definition
+
+-- Drop table
+
+-- DROP TABLE public.people_info;
+
+CREATE TABLE public.people_info (
+	first_name varchar(256) NULL,
+	middle_name varchar(256) NULL,
+	last_name varchar(256) NULL,
+	job_title varchar(256) NULL,
+	person_city varchar(256) NULL,
+	person_state varchar(256) NULL,
+	person_country varchar(256) NULL,
+	email_pattern varchar(256) NULL,
+	homepage_base_url varchar(256) NULL,
+	duration_in_current_job varchar(256) NULL,
+	duration_in_current_company varchar(256) NULL
+);

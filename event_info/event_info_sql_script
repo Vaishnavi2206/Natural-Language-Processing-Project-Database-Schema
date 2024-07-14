@@ -1,0 +1,16 @@
+-- public.event_info definition
+
+-- Drop table
+
+-- DROP TABLE public.event_info;
+
+CREATE TABLE public.event_info (
+	event_logo_url varchar(256) NULL,
+	event_name varchar(128) NULL,
+	event_start_date timestamp NULL,
+	event_end_date varchar(50) NULL,
+	event_venue varchar(128) NULL,
+	event_country varchar(50) NULL,
+	event_description varchar(1024) NULL,
+	event_url varchar(128) NULL
+);

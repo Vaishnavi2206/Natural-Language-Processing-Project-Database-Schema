@@ -1,0 +1,25 @@
+-- public.company_info definition
+
+-- Drop table
+
+-- DROP TABLE public.company_info;
+
+CREATE TABLE public.company_info (
+	company_logo_url varchar(1028) NULL,
+	company_logo_text varchar(1028) NULL,
+	company_name varchar(1028) NULL,
+	relation_to_event varchar(1028) NULL,
+	event_url varchar(1028) NULL,
+	company_revenue varchar(1028) NULL,
+	n_employees varchar(1028) NULL,
+	company_phone varchar(1028) NULL,
+	company_founding_year int4 NULL,
+	company_address varchar(1028) NULL,
+	company_industry text NULL,
+	company_overview text NULL,
+	homepage_url varchar(1028) NULL,
+	linkedin_company_url varchar(1028) NULL,
+	homepage_base_url varchar(1028) NULL,
+	company_logo_url_on_event_page varchar(1028) NULL,
+	company_logo_match_flag varchar(1028) NULL
+);
